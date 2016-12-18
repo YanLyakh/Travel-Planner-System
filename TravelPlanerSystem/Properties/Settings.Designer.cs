@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace TravelApp.Properties
+namespace TravelPlanerSystem.Properties
 {
 
 

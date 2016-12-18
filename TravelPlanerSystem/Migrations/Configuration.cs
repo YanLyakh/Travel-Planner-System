@@ -1,18 +1,19 @@
-namespace TravelApp.Migrations
+namespace TravelPlanerSystem.Migrations
 {
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<TravelApp.TravelDBContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<TravelPlanerSystem.TravelDBContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
+            ContextKey = "TravelPlanerSystem.TravelDBContext";
         }
 
-        protected override void Seed(TravelApp.TravelDBContext context)
+        protected override void Seed(TravelPlanerSystem.TravelDBContext context)
         {
             //  This method will be called after migrating to the latest version.
 

@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TravelApp
+namespace TravelPlanerSystem
 {
-   public class TravelDBContext : DbContext
+    public class TravelDBContext : DbContext
     {
         public DbSet<City> Cities { get; set; }
         public DbSet<Hotel> Hotels { get; set; }

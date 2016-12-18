@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TravelApp
+namespace TravelPlanerSystem
 {
     public enum RatingHotel
     {
@@ -19,10 +19,10 @@ namespace TravelApp
     {
         public int ID { get; set; }
         [Required]
-        public string Name { get; set; }
-        [Required]
+        public string Name { get; set; } 
+        [Required]       
         public RatingHotel Rating { get; set; }
         [Required]
-        public string Location { get; set; }
+        public string Location { get; set; }        
     }
 }

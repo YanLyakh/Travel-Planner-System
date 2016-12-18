@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Управление общими сведениями о сборке осуществляется с помощью 
 // набора атрибутов. Измените значения этих атрибутов, чтобы изменить сведения,
 // связанные со сборкой.
-[assembly: AssemblyTitle("TravelApp")]
+[assembly: AssemblyTitle("TravelPlanerSystem")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("TravelApp")]
+[assembly: AssemblyProduct("TravelPlanerSystem")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Следующий GUID служит для идентификации библиотеки типов, если этот проект будет видимым для COM
-[assembly: Guid("930d08dd-2b2b-4a65-8ed1-e9c451ff427d")]
+[assembly: Guid("91cc9c75-7b94-46db-b7ea-6f4362fa64a8")]
 
 // Сведения о версии сборки состоят из следующих четырех значений:
 //

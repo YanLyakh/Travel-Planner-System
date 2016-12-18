@@ -5,14 +5,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TravelApp
+namespace TravelPlanerSystem
 {
-   public class Attraction
+    public class City
     {
         public int ID { get; set; }
         [Required]
         public string Name { get; set; }
-        [Required]
-        public string Location { get; set; }
+        public virtual List<Attraction> Attractions { get; set; }
+        public virtual List<Hotel> Hotels { get; set; }
     }
 }
